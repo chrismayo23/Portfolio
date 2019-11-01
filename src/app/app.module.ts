@@ -46,10 +46,16 @@ import {
   MatToolbarModule,
   MatTooltipModule,
 } from '@angular/material';
+import { AboutComponent } from './about/about.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutComponent,
+    PortfolioComponent,
+    ContactComponent
   ],
   imports: [
     MatAutocompleteModule,

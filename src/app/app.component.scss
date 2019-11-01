@@ -12,10 +12,6 @@ a {
   color: white;
 }
 
-h3 {
-  margin-left: 40px;
-}
-
 .sidenav-toggle {
   color: white;
   background-color: rgb(58, 58, 58);
@@ -30,9 +26,26 @@ h3 {
   margin-left: 23px;
 }
 
-@media (max-width: 600px) {
-  h3 {
-    margin-left: 20px;
-    margin-top: 25px;
+.name {
+  display: block;
+  font-size: 20pt;
+  margin-left: 80px;
+}
+
+.route-buttons {
+  margin-right: 80px;
+}
+
+@media (max-width: 700px) {
+  .name {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 599px) {
+  .name {
+    position: relative;
+    top: 4px;
+    margin-left: 30px;
   }
 }
