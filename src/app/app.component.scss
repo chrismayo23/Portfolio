@@ -1,0 +1,38 @@
+.app-toolbar {
+  position: sticky;
+  position: -webkit-sticky; /* For macOS/iOS Safari */
+  top: 0;
+  z-index: 1000;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  height: 64px;
+}
+
+a {
+  color: white;
+}
+
+h3 {
+  margin-left: 40px;
+}
+
+.sidenav-toggle {
+  color: white;
+  background-color: rgb(58, 58, 58);
+}
+
+.sidenav {
+  background-color: rgb(233, 233, 233);
+  width: 160px;
+}
+
+.sidenav-item {
+  margin-left: 23px;
+}
+
+@media (max-width: 600px) {
+  h3 {
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+}
