@@ -32,6 +32,22 @@
 .image-div {
   text-align: center;
 }
+.t-mobile {
+  width: 40%;
+  margin: 0px 0px 0px -36px;
+}
+.t-mobile-description {
+  position: relative;
+  right: 19px;
+}
+.comcast {
+  width: 70%;
+  margin: 0px 0px 0px 14px;
+}
+.comcast-description {
+  position: relative;
+  left: 33px;
+}
 @media (max-width: 870px) {
   .card {
     width: 85%;
